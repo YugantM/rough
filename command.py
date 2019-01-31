@@ -5,6 +5,7 @@ def main(text):
     no1 = "play music"
     no2 = "open image"
     no3 = "open photo"
+	no3 = "open explorer"
     if(SequenceMatcher(None,text,no1).ratio()>0.6):
         os.startfile("E:\Dog-barking-aggressive.mp3")
         return "playing..."
